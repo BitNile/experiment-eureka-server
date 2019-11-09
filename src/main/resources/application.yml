@@ -1,0 +1,21 @@
+server:
+  port: 8761
+
+
+spring:
+  application:
+    name: experiment-eureka-server
+  security:
+    user:
+      name: root
+      password: eurekapwd
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url: http://localhost:${server.port}/eureka/
+
+
+
+
