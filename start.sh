@@ -1,0 +1,1 @@
+docker run -d -e username="root" -e password="eurekapwd" -p 8761:8761 experiment-eureka-server:v0.1
